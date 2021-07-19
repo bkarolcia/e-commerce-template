@@ -1,0 +1,48 @@
+@import "./fonts.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.banner {
+  align-items: center;
+  &__image {
+    width: 100%;
+    margin-top: 70px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &__txt {
+    font-family: $font1;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-left: 60px;
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}

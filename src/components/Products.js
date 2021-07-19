@@ -1,0 +1,16 @@
+export const products = [
+  { id: 1, name: "BEIGE COAT", price: 200 },
+  { id: 2, name: "NOAH PINK CARDIGAN ", price: 80 },
+  { id: 3, name: "ROMA BLACK T-SHIRT", price: 50 },
+  { id: 4, name: "ROSALIA CAPPUCCINO DRESS", price: 100 },
+  { id: 5, name: "KAYLA GREY HOODIE", price: 120 },
+  { id: 6, name: "JEANS SKIRT", price: 60 },
+  { id: 7, name: "JASIRA SILVER DRESS", price: 150 },
+  { id: 8, name: "SLOUCHY JEANS TROUSERS", price: 100 },
+  { id: 9, name: "WHITE/GOLD SPORTS SHOES", price: 150 },
+  { id: 10, name: "ANIMAL PRINT SANDALS", price: 115 },
+  { id: 11, name: "SONYA SHIRT PINK", price: 79 },
+  { id: 12, name: "LUCAS KHAKI SWEATER", price: 60 },
+  { id: 13, name: "MINOS VIOLET DRESS", price: 130 },
+  { id: 14, name: "DARK LATTE SHOES", price: 170 },
+];

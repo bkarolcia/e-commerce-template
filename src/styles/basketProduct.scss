@@ -1,0 +1,72 @@
+@import "./fonts.scss";
+
+.basket-product {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  font-family: $font1;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+  &__image {
+    height: 70px;
+    width: 50px;
+    margin-top: 7px;
+  }
+  &__product-right {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  &__quantity-input {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+  }
+  &__elements {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+
+    &__name {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+
+    input {
+      width: 30px;
+      text-rendering: auto;
+    }
+
+    &__second-row {
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      margin-top: 7px;
+      justify-content: space-between;
+
+      input {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &__price {
+    text-align: right;
+  }
+  &__trash {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+
+    &__button {
+      width: 15px;
+    }
+  }
+}
