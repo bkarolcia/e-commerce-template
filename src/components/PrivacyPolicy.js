@@ -1,7 +1,17 @@
+import Header from "./Header";
+import Text from "./Text.js";
+import "../styles/privacypolicy.scss";
+
 const PrivacyPolicy = () => {
   return (
     <div>
-      <h1>test</h1>
+      <div>
+        <Header />
+      </div>
+
+      <div className="container">
+        <Text />
+      </div>
     </div>
   );
 };

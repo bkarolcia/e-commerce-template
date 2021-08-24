@@ -1,0 +1,14 @@
+@import "./fonts.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+
+  &__txt {
+    font-family: $font1;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-left: 60px;
+  }
+}
