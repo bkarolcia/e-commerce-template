@@ -9,14 +9,14 @@ const App = () => {
     <div>
       <Router>
         <Switch>
+          <Route path="/privacy-policy">
+            <PrivacyPolicy />
+          </Route>
           <Route path="/products">
             <AllProducts />
           </Route>
           <Route path="/">
             <MainPage />
-          </Route>
-          <Route path="/privacy-policy">
-            <PrivacyPolicy />
           </Route>
         </Switch>
       </Router>
