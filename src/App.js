@@ -1,5 +1,6 @@
 import MainPage from "./components/MainPage";
 import AllProducts from "./components/AllProducts";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 import "./styles/main.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,6 +14,9 @@ const App = () => {
           </Route>
           <Route path="/">
             <MainPage />
+          </Route>
+          <Route path="/privacy-policy">
+            <PrivacyPolicy />
           </Route>
         </Switch>
       </Router>

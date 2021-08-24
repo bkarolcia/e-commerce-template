@@ -20,8 +20,9 @@ const Header = (props) => {
         <Link className="header__links" to="/products">
           All Products
         </Link>
-
-        <div>Privacy Policy</div>
+        <Link className="header__links" to="/privacy-policy">
+          Privacy Policy
+        </Link>
       </div>
       <div className="header__basket">
         <div className="header__basketicon">
