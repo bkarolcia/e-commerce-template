@@ -2,6 +2,8 @@
 
 ## This project was created to consolidate my knowledge and learn more in react.
 
+# If you want to see this page live, check it ---> https://ecommerce-template-boutique.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
